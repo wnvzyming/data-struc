@@ -1,6 +1,5 @@
 <?php
 /**
- * author:zhongjin
  * description: 二叉查找树
  */
 //结点

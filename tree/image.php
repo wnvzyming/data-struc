@@ -1,6 +1,5 @@
 <?php
 /**
- * author:LSGOZJ
  * description: 绘制二叉树图像
  */
 class image

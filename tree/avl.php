@@ -1,6 +1,5 @@
 <?php
 /**
- * author:zhongjin
  * description: 平衡二叉树
  */
 //结点

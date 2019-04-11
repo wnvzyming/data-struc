@@ -8,7 +8,7 @@
 
 
 function get_hash_table($table,$userid) {
-    $str = crc32($userid);
+    $str = md5($userid);
     if($str<0){
         $hash = "0".substr(abs($str), 0, 1);
     }else{
