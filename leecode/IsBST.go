@@ -14,16 +14,15 @@ import "fmt"
  * 所有左子树和右子树自身必须也是二叉搜索树。
  */
 
-
-type TreeNode struct {
-	Val int
-	Left *TreeNode
-	Right *TreeNode
+type TreeNodeBak struct {
+	Val   int
+	Left  *TreeNodeBak
+	Right *TreeNodeBak
 }
 
 var last int
 
-func isValidBST(root *TreeNode) bool {
+func isValidBST(root *TreeNodeBak) bool {
 
 	if root == nil {
 		return true
@@ -40,8 +39,8 @@ func isValidBST(root *TreeNode) bool {
 
 }
 
-func main()  {
+func main() {
 
-	fmt.Print(isValidBST(&TreeNode{0,nil,nil}))
+	fmt.Print(isValidBST(&TreeNodeBak{0, nil, nil}))
 
 }
